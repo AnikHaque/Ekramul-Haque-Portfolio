@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Projects - Ekramul Haque</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+      }
+
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+
+      @layer utilities {
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .animate-fadeIn {
+          animation: fadeIn 0.8s ease-out;
+        }
+      }
+
+      @keyframes roundToCircle {
+        0% {
+          border-radius: 0%; /* Start with sharp edges */
+        }
+        100% {
+          border-radius: 50%; /* End with a circle */
+        }
+      }
+
+      .animate-roundCircle {
+        animation: roundToCircle 1s ease-in-out forwards;
+      }
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white"
+  >
+    <!-- navbar section start -->
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#"><span>Ekramul </span>Haque</a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="about.html" class="menu-btn">About</a></li>
+          <li><a href="#services" class="menu-btn">Services</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#projects" class="menu-btn">Projects</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section
+      id="projects"
+      class="max-w-6xl mx-auto p-10 rounded-3xl backdrop-blur-lg"
+    >
+      <h2
+        class="text-5xl font-bold text-center bg-gradient-to-r from-purple-400 to-cyan-500 text-transparent bg-clip-text mb-12 mt-20"
+      >
+        My Projects
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project Card 2 -->
+        <div
+          class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition transform duration-300 animate-fadeIn"
+        >
+          <img
+            src="https://img.favpng.com/7/6/12/vector-graphics-teamwork-planning-project-png-favpng-PHEDn0rPWvjxtyNwUwiSXGH1B.jpg"
+            alt="Project 2"
+            class="w-full h-48 object-cover animate-floating"
+          />
+          <style>
+            @keyframes floating {
+              0%,
+              100% {
+                transform: translateY(0);
+              }
+              50% {
+                transform: translateY(-10px);
+              }
+            }
+            .animate-floating {
+              animation: floating 2s ease-in-out infinite;
+            }
+          </style>
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2 text-cyan-400">
+              Project Title 2
+            </h3>
+            <p class="text-gray-400">
+              Brief description of the project goes here. Explain the technology
+              used and purpose.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              class="inline-block mt-3 text-cyan-400 hover:text-purple-400"
+              >View Project →</a
+            >
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div
+          class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition transform duration-300 animate-fadeIn"
+        >
+          <img
+            src="https://img.favpng.com/7/6/12/vector-graphics-teamwork-planning-project-png-favpng-PHEDn0rPWvjxtyNwUwiSXGH1B.jpg"
+            alt="Project 2"
+            class="w-full h-48 object-cover animate-floating"
+          />
+          <style>
+            @keyframes floating {
+              0%,
+              100% {
+                transform: translateY(0);
+              }
+              50% {
+                transform: translateY(-10px);
+              }
+            }
+            .animate-floating {
+              animation: floating 2s ease-in-out infinite;
+            }
+          </style>
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2 text-cyan-400">
+              Project Title 2
+            </h3>
+            <p class="text-gray-400">
+              Brief description of the project goes here. Explain the technology
+              used and purpose.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              class="inline-block mt-3 text-cyan-400 hover:text-purple-400"
+              >View Project →</a
+            >
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div
+          class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition transform duration-300 animate-fadeIn"
+        >
+          <img
+            src="https://img.favpng.com/7/6/12/vector-graphics-teamwork-planning-project-png-favpng-PHEDn0rPWvjxtyNwUwiSXGH1B.jpg"
+            alt="Project 2"
+            class="w-full h-48 object-cover animate-floating"
+          />
+          <style>
+            @keyframes floating {
+              0%,
+              100% {
+                transform: translateY(0);
+              }
+              50% {
+                transform: translateY(-10px);
+              }
+            }
+            .animate-floating {
+              animation: floating 2s ease-in-out infinite;
+            }
+          </style>
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2 text-cyan-400">
+              Project Title 2
+            </h3>
+            <p class="text-gray-400">
+              Brief description of the project goes here. Explain the technology
+              used and purpose.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              class="inline-block mt-3 text-cyan-400 hover:text-purple-400"
+              >View Project →</a
+            >
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div
+          class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition transform duration-300 animate-fadeIn"
+        >
+          <img
+            src="https://img.favpng.com/7/6/12/vector-graphics-teamwork-planning-project-png-favpng-PHEDn0rPWvjxtyNwUwiSXGH1B.jpg"
+            alt="Project 2"
+            class="w-full h-48 object-cover animate-floating"
+          />
+          <style>
+            @keyframes floating {
+              0%,
+              100% {
+                transform: translateY(0);
+              }
+              50% {
+                transform: translateY(-10px);
+              }
+            }
+            .animate-floating {
+              animation: floating 2s ease-in-out infinite;
+            }
+          </style>
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2 text-cyan-400">
+              Project Title 2
+            </h3>
+            <p class="text-gray-400">
+              Brief description of the project goes here. Explain the technology
+              used and purpose.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              class="inline-block mt-3 text-cyan-400 hover:text-purple-400"
+              >View Project →</a
+            >
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div
+          class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition transform duration-300 animate-fadeIn"
+        >
+          <img
+            src="https://img.favpng.com/7/6/12/vector-graphics-teamwork-planning-project-png-favpng-PHEDn0rPWvjxtyNwUwiSXGH1B.jpg"
+            alt="Project 2"
+            class="w-full h-48 object-cover animate-floating"
+          />
+          <style>
+            @keyframes floating {
+              0%,
+              100% {
+                transform: translateY(0);
+              }
+              50% {
+                transform: translateY(-10px);
+              }
+            }
+            .animate-floating {
+              animation: floating 2s ease-in-out infinite;
+            }
+          </style>
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2 text-cyan-400">
+              Project Title 2
+            </h3>
+            <p class="text-gray-400">
+              Brief description of the project goes here. Explain the technology
+              used and purpose.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              class="inline-block mt-3 text-cyan-400 hover:text-purple-400"
+              >View Project →</a
+            >
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div
+          class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition transform duration-300 animate-fadeIn"
+        >
+          <img
+            src="https://img.favpng.com/7/6/12/vector-graphics-teamwork-planning-project-png-favpng-PHEDn0rPWvjxtyNwUwiSXGH1B.jpg"
+            alt="Project 2"
+            class="w-full h-48 object-cover animate-floating"
+          />
+          <style>
+            @keyframes floating {
+              0%,
+              100% {
+                transform: translateY(0);
+              }
+              50% {
+                transform: translateY(-10px);
+              }
+            }
+            .animate-floating {
+              animation: floating 2s ease-in-out infinite;
+            }
+          </style>
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2 text-cyan-400">
+              Project Title 2
+            </h3>
+            <p class="text-gray-400">
+              Brief description of the project goes here. Explain the technology
+              used and purpose.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              class="inline-block mt-3 text-cyan-400 hover:text-purple-400"
+              >View Project →</a
+            >
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div
+          class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition transform duration-300 animate-fadeIn"
+        >
+          <img
+            src="https://img.favpng.com/7/6/12/vector-graphics-teamwork-planning-project-png-favpng-PHEDn0rPWvjxtyNwUwiSXGH1B.jpg"
+            alt="Project 2"
+            class="w-full h-48 object-cover animate-floating"
+          />
+          <style>
+            @keyframes floating {
+              0%,
+              100% {
+                transform: translateY(0);
+              }
+              50% {
+                transform: translateY(-10px);
+              }
+            }
+            .animate-floating {
+              animation: floating 2s ease-in-out infinite;
+            }
+          </style>
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2 text-cyan-400">
+              Project Title 2
+            </h3>
+            <p class="text-gray-400">
+              Brief description of the project goes here. Explain the technology
+              used and purpose.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              class="inline-block mt-3 text-cyan-400 hover:text-purple-400"
+              >View Project →</a
+            >
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div
+          class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition transform duration-300 animate-fadeIn"
+        >
+          <img
+            src="https://img.favpng.com/7/6/12/vector-graphics-teamwork-planning-project-png-favpng-PHEDn0rPWvjxtyNwUwiSXGH1B.jpg"
+            alt="Project 2"
+            class="w-full h-48 object-cover animate-floating"
+          />
+          <style>
+            @keyframes floating {
+              0%,
+              100% {
+                transform: translateY(0);
+              }
+              50% {
+                transform: translateY(-10px);
+              }
+            }
+            .animate-floating {
+              animation: floating 2s ease-in-out infinite;
+            }
+          </style>
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2 text-cyan-400">
+              Project Title 2
+            </h3>
+            <p class="text-gray-400">
+              Brief description of the project goes here. Explain the technology
+              used and purpose.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              class="inline-block mt-3 text-cyan-400 hover:text-purple-400"
+              >View Project →</a
+            >
+          </div>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+
+      <div class="text-center mt-12">
+        <a
+          href="index.html#contact"
+          class="px-6 py-3 bg-cyan-500 text-black font-bold rounded-full hover:bg-purple-500 transition"
+          >Contact Me for Collaboration</a
+        >
+      </div>
+    </section>
+  </body>
+</html>
