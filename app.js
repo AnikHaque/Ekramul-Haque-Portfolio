@@ -9,13 +9,14 @@ const navToggle = document.getElementById("navToggle");
 const navMenu = document.getElementById("navMenu");
 
 function closeNav() {
+  if (!navMenu || !navToggle) return;
   navMenu.classList.remove("open");
   navToggle.setAttribute("aria-expanded", "false");
   navToggle.setAttribute("aria-label", "Open navigation");
   document.body.classList.remove("menu-open");
 }
 
-navToggle.addEventListener("click", () => {
+if (navToggle && navMenu) navToggle.addEventListener("click", () => {
   const open = navToggle.getAttribute("aria-expanded") === "true";
   navToggle.setAttribute("aria-expanded", String(!open));
   navToggle.setAttribute("aria-label", open ? "Open navigation" : "Close navigation");
@@ -23,7 +24,7 @@ navToggle.addEventListener("click", () => {
   document.body.classList.toggle("menu-open", !open);
 });
 
-navMenu.querySelectorAll("a").forEach((link) => {
+if (navMenu) navMenu.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", closeNav);
 });
 
@@ -128,7 +129,7 @@ if ("IntersectionObserver" in window) {
 const contactForm = document.getElementById("contactForm");
 const formNote = document.getElementById("formNote");
 
-contactForm.addEventListener("submit", (event) => {
+if (contactForm && formNote) contactForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const formData = new FormData(contactForm);
@@ -153,5 +154,5 @@ contactForm.addEventListener("submit", (event) => {
 });
 
 // Current year in footer
-document.getElementById("year").textContent = new Date().getFullYear();
-s
+const yearElement = document.getElementById("year");
+if (yearElement) yearElement.textContent = new Date().getFullYear();

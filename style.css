@@ -377,3 +377,103 @@ img { display: block; max-width: 100%; }
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+
+/* ==========================================
+   RESPONSIVE HARDENING — ALL SCREEN SIZES
+========================================== */
+html { max-width: 100%; overflow-x: clip; }
+body { width: 100%; max-width: 100%; overflow-x: clip; }
+main, header, footer, section, .container, .hero-grid, .about-grid,
+.skills-layout, .contact-card, .projects-grid, .services-grid { min-width: 0; }
+.hero-copy, .hero-art, .about-copy, .about-visual, .panel, .project-card,
+.service-card, .contact-intro, .contact-form { min-width: 0; }
+.hero-role, .hero-description, .section-intro, .about-copy p,
+.service-card p, .project-info p, .contact-intro p, .contact-detail strong {
+  overflow-wrap: anywhere;
+}
+.project-image img, .about-image-wrap img, .portrait { max-width: 100%; }
+input, textarea, select, button { max-width: 100%; }
+
+@media (max-width: 1100px) {
+  .container { width: min(var(--container), calc(100% - 40px)); }
+  .hero-grid { gap: 38px; }
+  .section { padding-block: 94px; }
+  .contact-card { gap: 28px; }
+}
+
+@media (max-width: 760px) {
+  .site-header { position: sticky; top: 0; }
+  .nav { position: relative; height: 70px; }
+  .nav-menu { z-index: 120; max-height: calc(100dvh - 70px); overflow-y: auto; }
+  .hero-grid { grid-template-columns: minmax(0, 1fr); }
+  .hero-copy { width: 100%; }
+  .hero-art { width: 100%; max-width: 480px; margin-inline: auto; overflow: clip; }
+  .hero h1 { line-height: .98; }
+  .hero-role { line-height: 1.5; overflow-wrap: anywhere; }
+  .hero-actions { gap: 12px; }
+  .hero-actions .button { justify-content: center; }
+  .quick-facts { width: calc(100% - 36px); }
+  .about-grid, .skills-layout, .contact-card { grid-template-columns: minmax(0, 1fr); }
+  .about-visual { width: 100%; max-width: 380px; margin-inline: auto; }
+  .services-grid, .projects-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .service-card, .project-card, .panel { min-width: 0; }
+  .contact-card { align-items: stretch; }
+  .contact-form { width: 100%; min-width: 0; }
+  .contact-form input, .contact-form textarea { width: 100%; min-width: 0; }
+  .footer-inner { gap: 18px; }
+}
+
+@media (max-width: 520px) {
+  .container { width: calc(100% - 32px); }
+  .section { padding-block: 68px; }
+  .nav { height: 66px; }
+  .nav-menu { top: 66px; max-height: calc(100dvh - 66px); }
+  .brand { font-size: 25px; }
+  .hero { padding: 42px 0 58px; }
+  .hero h1 { font-size: clamp(48px, 15vw, 62px); letter-spacing: -3px; }
+  .hero-role { font-size: clamp(16px, 4.5vw, 19px); }
+  .hero-description { font-size: 14px; line-height: 1.8; }
+  .hero-art { min-height: 330px; }
+  .portrait-frame { width: min(72%, 260px); height: 295px; }
+  .orbit-outer { width: min(310px, 92vw); height: min(310px, 92vw); }
+  .orbit-inner { width: min(265px, 80vw); height: min(265px, 80vw); }
+  .card-code { left: 0; top: 38px; }
+  .card-stack { right: 0; bottom: 40px; }
+  .hero-index { right: 2px; font-size: 9px; }
+  .hero-socials { flex-wrap: wrap; }
+  .section-heading h2 { font-size: clamp(30px, 9vw, 36px); }
+  .about-visual { min-height: 310px; }
+  .about-image-wrap, .about-decor { width: min(240px, 76vw); height: 290px; }
+  .about-copy p { font-size: 14px; }
+  .services-grid, .projects-grid { grid-template-columns: minmax(0, 1fr); }
+  .service-card { padding: 23px; }
+  .service-card h3 { font-size: 18px; }
+  .service-card p, .project-info p { font-size: 13px; line-height: 1.75; }
+  .project-image { height: clamp(190px, 60vw, 240px); }
+  .project-info h3 { font-size: 18px; }
+  .tech-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .tech-item { min-width: 0; overflow-wrap: anywhere; }
+  .contact-card { padding: 18px; gap: 26px; }
+  .contact-intro h2 { font-size: clamp(28px, 9vw, 34px); }
+  .contact-detail { align-items: flex-start; }
+  .contact-detail strong { overflow-wrap: anywhere; }
+  .contact-form { padding: 18px; }
+  .form-submit { width: 100%; justify-content: center; }
+  .footer-inner { align-items: flex-start; }
+  .footer-socials { margin-left: auto; }
+  .footer-bottom { gap: 10px; flex-wrap: wrap; font-size: 11px; }
+}
+
+@media (max-width: 360px) {
+  .container { width: calc(100% - 26px); }
+  .hero h1 { font-size: 47px; }
+  .availability { max-width: 100%; white-space: normal; }
+  .hero-art { min-height: 300px; }
+  .portrait-frame { height: 265px; }
+  .floating-card { max-width: 155px; }
+  .floating-card strong { font-size: 9px; }
+  .floating-card small { font-size: 8px; }
+  .tech-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .contact-card, .contact-form { padding: 15px; }
+}
