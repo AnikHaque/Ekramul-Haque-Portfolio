@@ -1,0 +1,524 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="Explore Ekramul Haque's technical skills in frontend development, backend development, databases, data analysis, and problem solving.">
+
+  <title>Skills | Ekramul Haque — Full-Stack Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="skills.css">
+</head>
+
+<body class="skills-page">
+
+  <div class="skills-background-glow skills-glow-one"></div>
+  <div class="skills-background-glow skills-glow-two"></div>
+
+  <!-- Navigation -->
+  <header class="skills-header">
+    <nav class="skills-nav">
+      <a href="index.html" class="skills-logo">
+        <span>&lt;</span>EH<span>/&gt;</span>
+      </a>
+
+      <button class="skills-menu-toggle" id="skillsMenuToggle"
+        aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="skills-nav-links" id="skillsNavLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="skills.html" class="active">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="#skills-contact" class="skills-nav-cta">
+          Let's Talk <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="skills-hero">
+      <div class="skills-container skills-hero-grid">
+
+        <div class="skills-hero-content skills-reveal">
+          <div class="skills-eyebrow">
+            <span class="skills-eyebrow-line"></span>
+            MY SKILLS & EXPERTISE
+          </div>
+
+          <h1>
+            The skills behind<br>
+            <span class="skills-gradient">the solutions I build.</span>
+          </h1>
+
+          <p>
+            A combination of development, data analysis, and problem-solving
+            skills to build useful digital products and tackle technical challenges.
+          </p>
+
+          <div class="skills-hero-buttons">
+            <a href="#technical-skills" class="skills-btn skills-btn-primary">
+              Explore My Skills <i class="fa-solid fa-arrow-down"></i>
+            </a>
+
+            <a href="projects.html" class="skills-btn skills-btn-secondary">
+              View Projects <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <div class="skills-hero-note">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Continuous learning. Practical thinking. Clean implementation.</span>
+          </div>
+        </div>
+
+        <!-- Decorative code panel -->
+        <div class="skills-code-panel skills-reveal">
+          <div class="skills-code-window">
+            <div class="skills-code-top">
+              <div class="skills-window-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span>developer.skills.js</span>
+              <i class="fa-solid fa-code"></i>
+            </div>
+
+            <div class="skills-code-body">
+              <div class="skills-code-line">
+                <span class="code-purple">const</span>
+                <span class="code-cyan"> developer</span> = {
+              </div>
+
+              <div class="skills-code-line indent">
+                <span class="code-blue">frontend</span>: [
+              </div>
+              <div class="skills-code-line indent-2">
+                <span class="code-green">"React"</span>,
+                <span class="code-green">"JavaScript"</span>
+              </div>
+              <div class="skills-code-line indent">],</div>
+
+              <div class="skills-code-line indent">
+                <span class="code-blue">backend</span>: [
+              </div>
+              <div class="skills-code-line indent-2">
+                <span class="code-green">"Node.js"</span>,
+                <span class="code-green">"Express.js"</span>
+              </div>
+              <div class="skills-code-line indent">],</div>
+
+              <div class="skills-code-line indent">
+                <span class="code-blue">data</span>: [
+              </div>
+              <div class="skills-code-line indent-2">
+                <span class="code-green">"SQL"</span>,
+                <span class="code-green">"Python"</span>
+              </div>
+              <div class="skills-code-line indent">],</div>
+
+              <div class="skills-code-line indent">
+                <span class="code-blue">mindset</span>:
+                <span class="code-green">"Problem Solver"</span>
+              </div>
+
+              <div class="skills-code-line">};</div>
+
+              <div class="skills-code-status">
+                <span><i class="fa-solid fa-circle-check"></i> Always improving</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-floating-chip chip-top">
+            <span class="chip-icon"><i class="fa-solid fa-laptop-code"></i></span>
+            <span><strong>Development</strong><small>Build & create</small></span>
+          </div>
+
+          <div class="skills-floating-chip chip-bottom">
+            <span class="chip-icon chip-purple"><i class="fa-solid fa-chart-line"></i></span>
+            <span><strong>Data & Logic</strong><small>Analyze & solve</small></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick overview -->
+    <section class="skills-overview">
+      <div class="skills-container skills-overview-grid">
+        <div class="skills-overview-item skills-reveal">
+          <span class="overview-icon"><i class="fa-solid fa-display"></i></span>
+          <div>
+            <strong>Frontend</strong>
+            <span>Interfaces & experiences</span>
+          </div>
+        </div>
+
+        <div class="skills-overview-item skills-reveal">
+          <span class="overview-icon purple"><i class="fa-solid fa-server"></i></span>
+          <div>
+            <strong>Backend</strong>
+            <span>Logic & APIs</span>
+          </div>
+        </div>
+
+        <div class="skills-overview-item skills-reveal">
+          <span class="overview-icon blue"><i class="fa-solid fa-database"></i></span>
+          <div>
+            <strong>Data</strong>
+            <span>Queries & insights</span>
+          </div>
+        </div>
+
+        <div class="skills-overview-item skills-reveal">
+          <span class="overview-icon pink"><i class="fa-solid fa-brain"></i></span>
+          <div>
+            <strong>Problem Solving</strong>
+            <span>Logic & analysis</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical skills -->
+    <section class="skills-section" id="technical-skills">
+      <div class="skills-container">
+
+        <div class="skills-section-heading skills-reveal">
+          <div>
+            <span class="skills-section-label">TECHNICAL EXPERTISE</span>
+            <h2>My technical <span class="skills-gradient">toolkit.</span></h2>
+          </div>
+          <p>
+            Technologies and tools I work with across different stages
+            of development and data-focused tasks.
+          </p>
+        </div>
+
+        <div class="skills-category-grid">
+
+          <!-- Frontend -->
+          <article class="skills-category-card skills-reveal">
+            <div class="category-card-header">
+              <div class="category-icon cyan">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <span class="category-index">01 / FRONTEND</span>
+            </div>
+
+            <h3>Frontend Development</h3>
+            <p>Building responsive interfaces and user-focused web experiences.</p>
+
+            <div class="skill-chip-list">
+              <span><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+              <span><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span><i class="fa-brands fa-react"></i> React</span>
+              <span><i class="fa-solid fa-wind"></i> Tailwind CSS</span>
+              <span><i class="fa-solid fa-layer-group"></i> Next.js</span>
+              <span><i class="fa-solid fa-code"></i> Vue.js</span>
+            </div>
+
+            <div class="category-card-footer">
+              <span>UI Development</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </article>
+
+          <!-- Backend -->
+          <article class="skills-category-card skills-reveal">
+            <div class="category-card-header">
+              <div class="category-icon purple">
+                <i class="fa-solid fa-server"></i>
+              </div>
+              <span class="category-index">02 / BACKEND</span>
+            </div>
+
+            <h3>Backend Development</h3>
+            <p>Creating application logic, APIs, and structured server-side systems.</p>
+
+            <div class="skill-chip-list">
+              <span><i class="fa-brands fa-node-js"></i> Node.js</span>
+              <span><i class="fa-solid fa-layer-group"></i> Express.js</span>
+              <span><i class="fa-brands fa-python"></i> Python</span>
+              <span><i class="fa-brands fa-php"></i> PHP</span>
+              <span><i class="fa-solid fa-plug"></i> REST APIs</span>
+              <span><i class="fa-solid fa-shield-halved"></i> JWT</span>
+            </div>
+
+            <div class="category-card-footer">
+              <span>Server & APIs</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </article>
+
+          <!-- Database -->
+          <article class="skills-category-card skills-reveal">
+            <div class="category-card-header">
+              <div class="category-icon blue">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <span class="category-index">03 / DATABASE</span>
+            </div>
+
+            <h3>Database Management</h3>
+            <p>Structuring data, writing queries, and integrating databases with applications.</p>
+
+            <div class="skill-chip-list">
+              <span><i class="fa-solid fa-leaf"></i> MongoDB</span>
+              <span><i class="fa-solid fa-database"></i> MySQL</span>
+              <span><i class="fa-solid fa-database"></i> PostgreSQL</span>
+              <span><i class="fa-solid fa-code"></i> SQL</span>
+              <span><i class="fa-solid fa-cubes"></i> Mongoose</span>
+            </div>
+
+            <div class="category-card-footer">
+              <span>Data Management</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </article>
+
+          <!-- Data analysis -->
+          <article class="skills-category-card skills-reveal">
+            <div class="category-card-header">
+              <div class="category-icon pink">
+                <i class="fa-solid fa-chart-column"></i>
+              </div>
+              <span class="category-index">04 / ANALYTICS</span>
+            </div>
+
+            <h3>Data Analysis & Reporting</h3>
+            <p>Working with data to identify patterns, measure performance, and communicate findings.</p>
+
+            <div class="skill-chip-list">
+              <span><i class="fa-brands fa-python"></i> Python</span>
+              <span><i class="fa-solid fa-database"></i> SQL Queries</span>
+              <span><i class="fa-solid fa-file-excel"></i> Excel</span>
+              <span><i class="fa-solid fa-chart-line"></i> Data Analysis</span>
+              <span><i class="fa-solid fa-chart-pie"></i> Reporting</span>
+              <span><i class="fa-solid fa-gauge-high"></i> Business Metrics</span>
+            </div>
+
+            <div class="category-card-footer">
+              <span>Insights & Metrics</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </article>
+
+          <!-- Tools -->
+          <article class="skills-category-card skills-reveal">
+            <div class="category-card-header">
+              <div class="category-icon orange">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+              <span class="category-index">05 / TOOLS</span>
+            </div>
+
+            <h3>Developer Tools</h3>
+            <p>Tools that support version control, debugging, collaboration, and deployment.</p>
+
+            <div class="skill-chip-list">
+              <span><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span><i class="fa-brands fa-github"></i> GitHub</span>
+              <span><i class="fa-solid fa-code"></i> VS Code</span>
+              <span><i class="fa-solid fa-globe"></i> Netlify</span>
+              <span><i class="fa-solid fa-terminal"></i> Command Line</span>
+              <span><i class="fa-solid fa-bug"></i> Debugging</span>
+            </div>
+
+            <div class="category-card-footer">
+              <span>Workflow & Delivery</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </article>
+
+          <!-- Architecture -->
+          <article class="skills-category-card skills-reveal">
+            <div class="category-card-header">
+              <div class="category-icon green">
+                <i class="fa-solid fa-diagram-project"></i>
+              </div>
+              <span class="category-index">06 / ENGINEERING</span>
+            </div>
+
+            <h3>Software Engineering</h3>
+            <p>Organizing application code and translating requirements into practical solutions.</p>
+
+            <div class="skill-chip-list">
+              <span><i class="fa-solid fa-sitemap"></i> MVC Architecture</span>
+              <span><i class="fa-solid fa-cubes"></i> Modular Design</span>
+              <span><i class="fa-solid fa-list-check"></i> Requirement Analysis</span>
+              <span><i class="fa-solid fa-gears"></i> Query Optimization</span>
+              <span><i class="fa-solid fa-puzzle-piece"></i> Problem Solving</span>
+              <span><i class="fa-solid fa-brain"></i> Mathematical Logic</span>
+            </div>
+
+            <div class="category-card-footer">
+              <span>Structure & Logic</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional skills -->
+    <section class="professional-skills-section">
+      <div class="skills-container professional-skills-grid">
+
+        <div class="professional-skills-intro skills-reveal">
+          <span class="skills-section-label">BEYOND THE CODE</span>
+          <h2>How I approach<br><span class="skills-gradient">every challenge.</span></h2>
+          <p>
+            Technical knowledge matters, but so does the way a problem is
+            understood, communicated, and solved.
+          </p>
+
+          <div class="professional-note">
+            <i class="fa-solid fa-lightbulb"></i>
+            <p>
+              My focus is on understanding the problem first, choosing a
+              practical approach, and delivering work that is clear and maintainable.
+            </p>
+          </div>
+        </div>
+
+        <div class="professional-skills-list">
+
+          <article class="professional-skill skills-reveal">
+            <div class="professional-skill-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <div>
+              <h3>Analytical Thinking</h3>
+              <p>Breaking down complex information and identifying practical next steps.</p>
+            </div>
+          </article>
+
+          <article class="professional-skill skills-reveal">
+            <div class="professional-skill-icon purple"><i class="fa-solid fa-puzzle-piece"></i></div>
+            <div>
+              <h3>Problem Solving</h3>
+              <p>Investigating issues logically and working toward effective solutions.</p>
+            </div>
+          </article>
+
+          <article class="professional-skill skills-reveal">
+            <div class="professional-skill-icon blue"><i class="fa-solid fa-comments"></i></div>
+            <div>
+              <h3>Communication</h3>
+              <p>Explaining ideas, clarifying requirements, and keeping collaboration focused.</p>
+            </div>
+          </article>
+
+          <article class="professional-skill skills-reveal">
+            <div class="professional-skill-icon pink"><i class="fa-solid fa-list-check"></i></div>
+            <div>
+              <h3>Requirement Analysis</h3>
+              <p>Understanding objectives and translating them into clear tasks.</p>
+            </div>
+          </article>
+
+          <article class="professional-skill skills-reveal">
+            <div class="professional-skill-icon orange"><i class="fa-solid fa-arrows-rotate"></i></div>
+            <div>
+              <h3>Adaptability & Learning</h3>
+              <p>Exploring new technologies and adapting to changing project needs.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Approach -->
+    <section class="skills-approach-section">
+      <div class="skills-container">
+        <div class="skills-approach-heading skills-reveal">
+          <span class="skills-section-label">MY APPROACH</span>
+          <h2>Skills are useful when<br><span class="skills-gradient">they solve real problems.</span></h2>
+        </div>
+
+        <div class="skills-approach-grid">
+          <article class="approach-card skills-reveal">
+            <span class="approach-number">01</span>
+            <i class="fa-solid fa-bullseye"></i>
+            <h3>Understand the Goal</h3>
+            <p>Start with the requirements, user needs, and intended outcome.</p>
+          </article>
+
+          <article class="approach-card skills-reveal">
+            <span class="approach-number">02</span>
+            <i class="fa-solid fa-route"></i>
+            <h3>Choose the Approach</h3>
+            <p>Select suitable technologies and create a manageable plan.</p>
+          </article>
+
+          <article class="approach-card skills-reveal">
+            <span class="approach-number">03</span>
+            <i class="fa-solid fa-code"></i>
+            <h3>Build & Improve</h3>
+            <p>Implement the solution, review the details, and refine where needed.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="skills-contact-section" id="skills-contact">
+      <div class="skills-container">
+        <div class="skills-contact-panel skills-reveal">
+          <div class="skills-contact-orb"></div>
+
+          <div class="skills-contact-content">
+            <span class="skills-section-label">LET'S CONNECT</span>
+            <h2>Looking for someone<br><span class="skills-gradient">who can build and solve?</span></h2>
+            <p>
+              Let's discuss your project, technical requirements, or the
+              opportunity to work together.
+            </p>
+
+            <div class="skills-contact-buttons">
+              <a href="mailto:ekramul.haque.cse1@gmail.com?subject=Professional%20Inquiry"
+                 class="skills-btn skills-btn-primary">
+                <i class="fa-regular fa-envelope"></i> Get in Touch
+              </a>
+
+              <a href="projects.html" class="skills-btn skills-btn-secondary">
+                Explore My Projects <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="skills-footer">
+    <div class="skills-container skills-footer-inner">
+      <a href="index.html" class="skills-logo"><span>&lt;</span>EH<span>/&gt;</span></a>
+      <p>Designed & developed by <span>Ekramul Haque</span></p>
+      <a href="#" class="skills-back-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="skills.js"></script>
+</body>
+</html>
