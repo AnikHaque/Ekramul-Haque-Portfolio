@@ -1,38 +1,29 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   // Mobile navigation
-  const navToggle = document.getElementById("navToggle");
-  const navMenu = document.getElementById("navMenu");
+  const menuToggle = document.getElementById("servicesMenuToggle");
+  const navLinks = document.getElementById("servicesNavLinks");
 
-  if (navToggle && navMenu) {
-    navToggle.addEventListener("click", () => {
-      const isOpen = navMenu.classList.toggle("open");
+  if (menuToggle && navLinks) {
+    menuToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.toggle("open");
 
-      navToggle.setAttribute("aria-expanded", String(isOpen));
-      navToggle.setAttribute(
-        "aria-label",
-        isOpen ? "Close navigation" : "Open navigation"
-      );
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.innerHTML = isOpen
+        ? '<i class="fa-solid fa-xmark"></i>'
+        : '<i class="fa-solid fa-bars"></i>';
     });
 
-    navMenu.querySelectorAll("a").forEach((link) => {
+    navLinks.querySelectorAll("a").forEach((link) => {
       link.addEventListener("click", () => {
-        navMenu.classList.remove("open");
-        navToggle.setAttribute("aria-expanded", "false");
-        navToggle.setAttribute("aria-label", "Open navigation");
+        navLinks.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
       });
-    });
-
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape") {
-        navMenu.classList.remove("open");
-        navToggle.setAttribute("aria-expanded", "false");
-        navToggle.setAttribute("aria-label", "Open navigation");
-      }
     });
   }
 
-  // Scroll reveal
+  // Reveal elements on scroll
   const revealElements = document.querySelectorAll(".reveal");
 
   if ("IntersectionObserver" in window) {
@@ -46,8 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       },
       {
-        threshold: 0.08,
-        rootMargin: "0px 0px -30px 0px"
+        threshold: 0.12,
+        rootMargin: "0px 0px -35px 0px"
       }
     );
 
@@ -61,8 +52,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Automatic copyright year
-  document.querySelectorAll(".year").forEach((element) => {
-    element.textContent = new Date().getFullYear();
-  });
+  // Back-to-top link
+  const backToTop = document.querySelector(".back-to-top");
+
+  if (backToTop) {
+    backToTop.addEventListener("click", (event) => {
+      event.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  }
 });

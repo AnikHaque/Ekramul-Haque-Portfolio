@@ -1,519 +1,266 @@
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#080d18" />
-  <meta
-    name="description"
-    content="Explore web development services by Ekramul Haque, including full-stack development, responsive websites, web applications, and API integration."
-  />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="Explore web development, frontend, backend, database, and data analysis services by Ekramul Haque.">
 
-  <title>Services | Ekramul Haque — Full-Stack Developer</title>
+  <title>Services | Ekramul Haque</title>
 
-  <!-- Google Fonts: Match the Home Page -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Font Awesome -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-  />
-
-  <!-- Existing Home Page Styles -->
-  <link rel="stylesheet" href="style.css" />
-
-  <!-- Services Page Styles -->
-  <link rel="stylesheet" href="services.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="services.css">
 </head>
 
 <body class="services-page">
 
-  <!-- Ambient Background -->
-  <div class="ambient ambient-one" aria-hidden="true"></div>
-  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="services-glow glow-one"></div>
+  <div class="services-glow glow-two"></div>
 
-  <!-- ================= HEADER ================= -->
-  <header class="site-header">
-    <div class="container nav">
-
-      <a href="index.html" class="brand" aria-label="Ekramul Haque Home">
-        <span class="brand-mark">E<span>.</span></span>
-        <span class="brand-name">Ekramul<span> Haque</span></span>
+  <!-- Navigation -->
+  <header class="services-header">
+    <nav class="services-nav">
+      <a href="index.html" class="services-logo">
+        <span class="logo-bracket">&lt;</span>EH<span class="logo-bracket">/&gt;</span>
       </a>
 
-      <button
-        class="nav-toggle"
-        id="navToggle"
-        type="button"
-        aria-label="Open navigation menu"
-        aria-controls="navMenu"
-        aria-expanded="false"
-      >
-        <i class="fa-solid fa-bars"></i>
-      </button>
-
-      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+      <div class="services-nav-links" id="servicesNavLinks">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="services.html" class="active" aria-current="page">Services</a>
-        <a href="index.html#skills">Skills</a>
-        <a href="index.html#projects">Projects</a>
-        <a href="index.html#contact" class="nav-contact">Contact Me <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-      </nav>
+        <a href="services.html" class="active">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="#contact" class="nav-contact">Let's Talk <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
 
-    </div>
+      <button class="services-menu-toggle" id="servicesMenuToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
   </header>
 
   <main>
-
-    <!-- ================= HERO ================= -->
-    <section class="services-hero section">
-      <div class="container">
-
-        <div class="services-hero-content reveal">
-
-          <div class="eyebrow">
-            <span class="eyebrow-dot"></span>
-            WHAT I DO
-          </div>
-
-          <h1>
-            Services That Turn
-            <span class="gradient-text">Ideas Into Reality.</span>
-          </h1>
-
-          <p class="services-hero-description">
-            I build modern, responsive, and user-focused digital experiences.
-            From stunning websites to powerful web applications, I help turn
-            your ideas into practical digital solutions.
-          </p>
-
-          <div class="services-hero-actions">
-            <a href="#service-list" class="button button-primary">
-              Explore My Services
-              <i class="fa-solid fa-arrow-down"></i>
-            </a>
-
-            <a href="index.html#contact" class="button button-secondary">
-              Let's Talk
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-
-          <div class="services-hero-meta">
-            <div class="hero-meta-item">
-              <span class="meta-icon"><i class="fa-solid fa-code"></i></span>
-              <span>Clean Code</span>
-            </div>
-
-            <span class="meta-divider"></span>
-
-            <div class="hero-meta-item">
-              <span class="meta-icon"><i class="fa-solid fa-mobile-screen-button"></i></span>
-              <span>Responsive Design</span>
-            </div>
-
-            <span class="meta-divider"></span>
-
-            <div class="hero-meta-item">
-              <span class="meta-icon"><i class="fa-solid fa-bolt"></i></span>
-              <span>Performance Focused</span>
-            </div>
-          </div>
-
+    <!-- Hero -->
+    <section class="services-hero">
+      <div class="services-container">
+        <div class="services-eyebrow reveal">
+          <span class="eyebrow-line"></span>
+          WHAT I DO
+          <span class="eyebrow-line"></span>
         </div>
 
-        <!-- Hero Visual -->
-        <div class="services-hero-visual reveal">
-          <div class="hero-visual-glow"></div>
+        <h1 class="services-title reveal">
+          Services that turn<br>
+          ideas into <span class="gradient-text">reality.</span>
+        </h1>
 
-          <div class="code-window">
-            <div class="code-window-header">
-              <div class="window-dots">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
+        <p class="services-description reveal">
+          I build modern websites, reliable backend systems, and data-driven
+          solutions that help businesses grow and deliver better digital experiences.
+        </p>
 
-              <span class="window-file">
-                <i class="fa-brands fa-js"></i>
-                developer.js
-              </span>
+        <div class="services-hero-actions reveal">
+          <a href="#service-list" class="service-btn primary-btn">
+            Explore Services <i class="fa-solid fa-arrow-down"></i>
+          </a>
+          <a href="#contact" class="service-btn secondary-btn">
+            Discuss Your Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
 
-              <i class="fa-solid fa-ellipsis"></i>
-            </div>
-
-            <div class="code-window-body">
-              <div class="code-line">
-                <span class="code-number">01</span>
-                <code><span class="code-purple">const</span> developer = {</code>
-              </div>
-
-              <div class="code-line">
-                <span class="code-number">02</span>
-                <code>&nbsp;&nbsp;name: <span class="code-cyan">"Ekramul Haque"</span>,</code>
-              </div>
-
-              <div class="code-line">
-                <span class="code-number">03</span>
-                <code>&nbsp;&nbsp;role: <span class="code-cyan">"Full-Stack Developer"</span>,</code>
-              </div>
-
-              <div class="code-line">
-                <span class="code-number">04</span>
-                <code>&nbsp;&nbsp;skills: [</code>
-              </div>
-
-              <div class="code-line">
-                <span class="code-number">05</span>
-                <code>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Frontend"</span>,</code>
-              </div>
-
-              <div class="code-line">
-                <span class="code-number">06</span>
-                <code>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Backend"</span>,</code>
-              </div>
-
-              <div class="code-line">
-                <span class="code-number">07</span>
-                <code>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Database"</span></code>
-              </div>
-
-              <div class="code-line">
-                <span class="code-number">08</span>
-                <code>&nbsp;&nbsp;],</code>
-              </div>
-
-              <div class="code-line">
-                <span class="code-number">09</span>
-                <code>&nbsp;&nbsp;passion: <span class="code-cyan">"Building for the web"</span></code>
-              </div>
-
-              <div class="code-line">
-                <span class="code-number">10</span>
-                <code>};</code>
-              </div>
-
-              <div class="code-line code-final-line">
-                <span class="code-number">11</span>
-                <code><span class="code-purple">return</span> <span class="code-green">"Let's build something great!"</span>;</code>
-              </div>
-            </div>
-
-            <div class="code-window-footer">
-              <span><i class="fa-solid fa-circle-check"></i> Ready to build</span>
-              <span>JavaScript</span>
-            </div>
-          </div>
-
-          <div class="floating-badge floating-badge-top">
-            <span class="floating-badge-icon">
-              <i class="fa-solid fa-layer-group"></i>
-            </span>
-            <span>
-              <strong>Full-Stack</strong>
-              <small>Development</small>
-            </span>
-          </div>
-
-          <div class="floating-badge floating-badge-bottom">
-            <span class="floating-badge-icon cyan-icon">
-              <i class="fa-solid fa-wand-magic-sparkles"></i>
-            </span>
-            <span>
-              <strong>Modern UI</strong>
-              <small>Built with care</small>
-            </span>
-          </div>
-
+        <div class="services-hero-meta reveal">
+          <span><i class="fa-solid fa-circle-check"></i> Modern Technologies</span>
+          <span><i class="fa-solid fa-circle-check"></i> Responsive Design</span>
+          <span><i class="fa-solid fa-circle-check"></i> Quality-Focused Development</span>
         </div>
       </div>
+
+      <div class="hero-decoration decoration-one"></div>
+      <div class="hero-decoration decoration-two"></div>
     </section>
 
-    <!-- ================= SERVICE INTRO ================= -->
-    <section class="section services-intro">
-      <div class="container">
+    <!-- Services -->
+    <section class="services-section" id="service-list">
+      <div class="services-container">
 
         <div class="section-heading reveal">
-          <span class="eyebrow">MY EXPERTISE</span>
-
-          <h2>
-            What I Can
-            <span class="gradient-text">Build For You</span>
-          </h2>
-
-          <p class="section-intro">
-            Every project is different. I focus on understanding your goals
-            and building a solution that is visually appealing, reliable,
-            and easy to use.
+          <div>
+            <span class="section-kicker">MY EXPERTISE</span>
+            <h2>What I can <span class="gradient-text">help you with.</span></h2>
+          </div>
+          <p>
+            From the first concept to the final product, I focus on building
+            solutions that look great, work smoothly, and solve real problems.
           </p>
         </div>
 
-        <div class="services-highlights reveal">
+        <div class="service-grid">
 
-          <div class="highlight-item">
-            <span class="highlight-icon">
-              <i class="fa-solid fa-bullseye"></i>
-            </span>
-            <div>
-              <h3>Goal-Oriented</h3>
-              <p>Solutions designed around your needs.</p>
-            </div>
-          </div>
-
-          <div class="highlight-item">
-            <span class="highlight-icon">
-              <i class="fa-solid fa-shield-halved"></i>
-            </span>
-            <div>
-              <h3>Reliable Code</h3>
-              <p>Maintainable code with a clear structure.</p>
-            </div>
-          </div>
-
-          <div class="highlight-item">
-            <span class="highlight-icon">
-              <i class="fa-solid fa-gauge-high"></i>
-            </span>
-            <div>
-              <h3>Performance First</h3>
-              <p>Fast, accessible, responsive experiences.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ================= SERVICE CARDS ================= -->
-    <section class="section section-anchor service-list-section" id="service-list">
-      <div class="container">
-
-        <div class="section-heading reveal">
-          <span class="eyebrow">SERVICES</span>
-
-          <h2>
-            Digital Solutions,
-            <span class="gradient-text">Built With Purpose.</span>
-          </h2>
-
-          <p class="section-intro">
-            Explore the services I offer to help businesses, individuals,
-            and teams create better digital experiences.
-          </p>
-        </div>
-
-        <div class="services-grid">
-
-          <!-- Service 01 -->
+          <!-- Service 1 -->
           <article class="service-card reveal">
-            <div class="service-top">
-              <span class="service-icon">
+            <div class="service-card-top">
+              <div class="service-icon cyan-icon">
                 <i class="fa-solid fa-code"></i>
-              </span>
+              </div>
               <span class="service-number">01</span>
             </div>
 
-            <span class="service-category">END-TO-END DEVELOPMENT</span>
-
-            <h3>Full-Stack Development</h3>
-
+            <h3>Frontend Development</h3>
             <p>
-              Complete web solutions with modern frontend interfaces,
-              robust backend systems, database integration, and structured
-              application architecture.
+              Responsive, interactive, and visually engaging interfaces designed
+              to deliver a smooth user experience across devices.
             </p>
 
             <div class="service-tags">
-              <span>React</span>
-              <span>Node.js</span>
-              <span>MongoDB</span>
-            </div>
-
-            <a
-              href="service-details.html?service=full-stack"
-              class="service-link"
-            >
-              Explore Service
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </article>
-
-          <!-- Service 02 -->
-          <article class="service-card reveal">
-            <div class="service-top">
-              <span class="service-icon">
-                <i class="fa-solid fa-cart-shopping"></i>
-              </span>
-              <span class="service-number">02</span>
-            </div>
-
-            <span class="service-category">ONLINE BUSINESS</span>
-
-            <h3>E-commerce Websites</h3>
-
-            <p>
-              User-friendly online stores with product listings, organized
-              categories, shopping experiences, and scalable foundations
-              for your online business.
-            </p>
-
-            <div class="service-tags">
-              <span>Storefront</span>
-              <span>Products</span>
-              <span>Responsive UI</span>
-            </div>
-
-            <a
-              href="service-details.html?service=ecommerce"
-              class="service-link"
-            >
-              Explore Service
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </article>
-
-          <!-- Service 03 -->
-          <article class="service-card reveal">
-            <div class="service-top">
-              <span class="service-icon">
-                <i class="fa-solid fa-window-maximize"></i>
-              </span>
-              <span class="service-number">03</span>
-            </div>
-
-            <span class="service-category">CUSTOM SOLUTIONS</span>
-
-            <h3>Web Application Development</h3>
-
-            <p>
-              Custom web applications tailored to specific workflows,
-              user requirements, and business processes with a focus on
-              usability and maintainability.
-            </p>
-
-            <div class="service-tags">
-              <span>React</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
               <span>JavaScript</span>
-              <span>Express.js</span>
-            </div>
-
-            <a
-              href="service-details.html?service=web-apps"
-              class="service-link"
-            >
-              Explore Service
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </article>
-
-          <!-- Service 04 -->
-          <article class="service-card reveal">
-            <div class="service-top">
-              <span class="service-icon">
-                <i class="fa-solid fa-mobile-screen-button"></i>
-              </span>
-              <span class="service-number">04</span>
-            </div>
-
-            <span class="service-category">USER EXPERIENCE</span>
-
-            <h3>Responsive Website Design</h3>
-
-            <p>
-              Modern interfaces that adapt to desktops, tablets, and
-              smartphones, providing a consistent experience across
-              different screen sizes.
-            </p>
-
-            <div class="service-tags">
-              <span>HTML</span>
-              <span>CSS</span>
+              <span>React</span>
               <span>Tailwind CSS</span>
             </div>
 
-            <a
-              href="service-details.html?service=responsive-ui"
-              class="service-link"
-            >
-              Explore Service
-              <i class="fa-solid fa-arrow-right"></i>
+            <a href="#contact" class="service-link">
+              Discuss this service <i class="fa-solid fa-arrow-right"></i>
             </a>
           </article>
 
-          <!-- Service 05 -->
+          <!-- Service 2 -->
           <article class="service-card reveal">
-            <div class="service-top">
-              <span class="service-icon">
+            <div class="service-card-top">
+              <div class="service-icon purple-icon">
+                <i class="fa-solid fa-layer-group"></i>
+              </div>
+              <span class="service-number">02</span>
+            </div>
+
+            <h3>Backend Development</h3>
+            <p>
+              Secure APIs, server-side logic, and scalable application
+              architecture built around your project's requirements.
+            </p>
+
+            <div class="service-tags">
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>REST API</span>
+              <span>Authentication</span>
+            </div>
+
+            <a href="#contact" class="service-link">
+              Discuss this service <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-icon blue-icon">
                 <i class="fa-solid fa-database"></i>
-              </span>
+              </div>
+              <span class="service-number">03</span>
+            </div>
+
+            <h3>Database Solutions</h3>
+            <p>
+              Structured database design, efficient queries, and reliable
+              data management for applications that need consistency and performance.
+            </p>
+
+            <div class="service-tags">
+              <span>MongoDB</span>
+              <span>MySQL</span>
+              <span>PostgreSQL</span>
+              <span>Mongoose</span>
+            </div>
+
+            <a href="#contact" class="service-link">
+              Discuss this service <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-icon pink-icon">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <span class="service-number">04</span>
+            </div>
+
+            <h3>Data Analysis & Reporting</h3>
+            <p>
+              Turn raw data into meaningful insights through data analysis,
+              structured reporting, and clear performance metrics.
+            </p>
+
+            <div class="service-tags">
+              <span>Python</span>
+              <span>SQL</span>
+              <span>Excel</span>
+              <span>Data Visualization</span>
+            </div>
+
+            <a href="#contact" class="service-link">
+              Discuss this service <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Service 5 -->
+          <article class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-icon orange-icon">
+                <i class="fa-solid fa-gauge-high"></i>
+              </div>
               <span class="service-number">05</span>
             </div>
 
-            <span class="service-category">BACKEND SYSTEMS</span>
-
-            <h3>API & Database Integration</h3>
-
+            <h3>Website Optimization</h3>
             <p>
-              Structured REST APIs, database models, server-side logic,
-              and application integrations to help your software
-              communicate with data efficiently.
+              Improve website performance, loading speed, responsiveness,
+              and code structure for a better overall experience.
             </p>
 
             <div class="service-tags">
-              <span>REST API</span>
-              <span>Mongoose</span>
-              <span>Express.js</span>
+              <span>Performance</span>
+              <span>Responsive UI</span>
+              <span>Debugging</span>
+              <span>Clean Code</span>
             </div>
 
-            <a
-              href="service-details.html?service=api-database"
-              class="service-link"
-            >
-              Explore Service
-              <i class="fa-solid fa-arrow-right"></i>
+            <a href="#contact" class="service-link">
+              Discuss this service <i class="fa-solid fa-arrow-right"></i>
             </a>
           </article>
 
-          <!-- Service 06 -->
+          <!-- Service 6 -->
           <article class="service-card reveal">
-            <div class="service-top">
-              <span class="service-icon">
-                <i class="fa-solid fa-screwdriver-wrench"></i>
-              </span>
+            <div class="service-card-top">
+              <div class="service-icon green-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
               <span class="service-number">06</span>
             </div>
 
-            <span class="service-category">ONGOING IMPROVEMENT</span>
-
-            <h3>Website Maintenance & Support</h3>
-
+            <h3>Technical Consultation</h3>
             <p>
-              Help with website improvements, bug fixes, layout adjustments,
-              performance checks, and updates to keep your project
-              running smoothly.
+              Practical guidance on project requirements, technology choices,
+              application structure, and turning ideas into workable solutions.
             </p>
 
             <div class="service-tags">
-              <span>Bug Fixes</span>
-              <span>Optimization</span>
-              <span>Updates</span>
+              <span>Planning</span>
+              <span>Problem Solving</span>
+              <span>Architecture</span>
+              <span>Requirements</span>
             </div>
 
-            <a
-              href="service-details.html?service=website-support"
-              class="service-link"
-            >
-              Explore Service
-              <i class="fa-solid fa-arrow-right"></i>
+            <a href="#contact" class="service-link">
+              Discuss this service <i class="fa-solid fa-arrow-right"></i>
             </a>
           </article>
 
@@ -521,175 +268,91 @@
       </div>
     </section>
 
-    <!-- ================= WORK PROCESS ================= -->
-    <section class="section process-section">
-      <div class="container">
-
-        <div class="section-heading reveal">
-          <span class="eyebrow">HOW I WORK</span>
-
-          <h2>
-            From First Idea
-            <span class="gradient-text">To Final Product.</span>
-          </h2>
-
-          <p class="section-intro">
-            A clear and collaborative process helps keep projects organized
-            and focused on the intended outcome.
-          </p>
+    <!-- Working Process -->
+    <section class="process-section">
+      <div class="services-container">
+        <div class="process-heading reveal">
+          <span class="section-kicker">HOW I WORK</span>
+          <h2>A simple process. <span class="gradient-text">Better results.</span></h2>
+          <p>Every project follows a clear, collaborative, and goal-oriented workflow.</p>
         </div>
 
         <div class="process-grid">
+          <div class="process-item reveal">
+            <div class="process-icon"><i class="fa-solid fa-comments"></i></div>
+            <span class="process-step">STEP 01</span>
+            <h3>Discover</h3>
+            <p>Understand your goals, requirements, audience, and expectations.</p>
+          </div>
 
-          <article class="process-card reveal">
-            <div class="process-number">01</div>
-            <span class="process-icon">
-              <i class="fa-regular fa-comments"></i>
-            </span>
-            <h3>Discovery</h3>
-            <p>
-              Discuss your idea, requirements, audience, and project goals.
-            </p>
-          </article>
+          <div class="process-item reveal">
+            <div class="process-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+            <span class="process-step">STEP 02</span>
+            <h3>Plan & Design</h3>
+            <p>Choose the right approach and map out a clear implementation plan.</p>
+          </div>
 
-          <article class="process-card reveal">
-            <div class="process-number">02</div>
-            <span class="process-icon">
-              <i class="fa-solid fa-pen-ruler"></i>
-            </span>
-            <h3>Planning & Design</h3>
-            <p>
-              Define the structure, user experience, and technical approach.
-            </p>
-          </article>
+          <div class="process-item reveal">
+            <div class="process-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <span class="process-step">STEP 03</span>
+            <h3>Develop</h3>
+            <p>Build, test, and refine the solution with attention to detail.</p>
+          </div>
 
-          <article class="process-card reveal">
-            <div class="process-number">03</div>
-            <span class="process-icon">
-              <i class="fa-solid fa-laptop-code"></i>
-            </span>
-            <h3>Development</h3>
-            <p>
-              Build the solution with attention to code quality and usability.
-            </p>
-          </article>
-
-          <article class="process-card reveal">
-            <div class="process-number">04</div>
-            <span class="process-icon">
-              <i class="fa-solid fa-rocket"></i>
-            </span>
-            <h3>Testing & Delivery</h3>
-            <p>
-              Review the final work, test key functionality, and prepare for
-              delivery.
-            </p>
-          </article>
-
+          <div class="process-item reveal">
+            <div class="process-icon"><i class="fa-solid fa-rocket"></i></div>
+            <span class="process-step">STEP 04</span>
+            <h3>Deliver</h3>
+            <p>Review the final result and prepare it for launch or handover.</p>
+          </div>
         </div>
-
       </div>
     </section>
 
-    <!-- ================= CTA ================= -->
-    <section class="section services-cta-section">
-      <div class="container">
-
-        <div class="services-cta reveal">
-          <div class="cta-decoration cta-decoration-one"></div>
-          <div class="cta-decoration cta-decoration-two"></div>
+    <!-- CTA -->
+    <section class="services-cta" id="contact">
+      <div class="services-container">
+        <div class="cta-panel reveal">
+          <div class="cta-orb orb-left"></div>
+          <div class="cta-orb orb-right"></div>
 
           <div class="cta-content">
-            <span class="eyebrow">
-              <span class="eyebrow-dot"></span>
-              HAVE A PROJECT IN MIND?
-            </span>
-
-            <h2>
-              Let's Build Something
-              <span class="gradient-text">Meaningful Together.</span>
-            </h2>
-
+            <span class="section-kicker">HAVE A PROJECT IN MIND?</span>
+            <h2>Let's build something<br><span class="gradient-text">meaningful together.</span></h2>
             <p>
-              Have an idea, a project, or a problem to solve?
-              Let's discuss how I can help turn it into a practical
-              digital solution.
+              Have an idea, a challenge, or a project to discuss?
+              Let's connect and explore how I can help.
             </p>
 
             <div class="cta-actions">
-              <a
-                href="index.html#contact"
-                class="button button-primary"
-              >
-                Start a Conversation
-                <i class="fa-solid fa-arrow-right"></i>
+              <a href="mailto:ekramul.haque.cse1@gmail.com" class="service-btn primary-btn">
+                <i class="fa-regular fa-envelope"></i> Get in Touch
               </a>
-
-              <a
-                href="mailto:ekramul.haque.cse1@gmail.com"
-                class="button button-secondary"
-              >
-                <i class="fa-regular fa-envelope"></i>
-                Send an Email
+              <a href="projects.html" class="service-btn secondary-btn">
+                View My Projects <i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
           </div>
         </div>
-
       </div>
     </section>
-
   </main>
 
-  <!-- ================= FOOTER ================= -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-
-      <a href="index.html" class="brand footer-brand">
-        <span class="brand-mark">E<span>.</span></span>
-        <span class="brand-name">Ekramul<span> Haque</span></span>
+  <!-- Footer -->
+  <footer class="services-footer">
+    <div class="services-container footer-inner">
+      <a href="index.html" class="services-logo">
+        <span class="logo-bracket">&lt;</span>EH<span class="logo-bracket">/&gt;</span>
       </a>
 
-      <p class="footer-copy">
-        Designing and building digital experiences with purpose.
-      </p>
+      <p>Designed & developed by <span>Ekramul Haque</span></p>
 
-      <div class="footer-socials">
-        <a
-          href="https://github.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="GitHub"
-        >
-          <i class="fa-brands fa-github"></i>
-        </a>
-
-        <a
-          href="https://www.linkedin.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="LinkedIn"
-        >
-          <i class="fa-brands fa-linkedin-in"></i>
-        </a>
-
-        <a
-          href="mailto:ekramul.haque.cse1@gmail.com"
-          aria-label="Email"
-        >
-          <i class="fa-regular fa-envelope"></i>
-        </a>
-      </div>
-
-      <p class="footer-copyright">
-        &copy; <span class="year"></span> Ekramul Haque. All rights reserved.
-      </p>
-
+      <a href="#top" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
     </div>
   </footer>
 
-  <!-- Services Page JavaScript -->
   <script src="services.js"></script>
-
 </body>
 </html>

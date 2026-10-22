@@ -18,29 +18,39 @@
 
 <body class="project-details-page">
 
-  <!-- NAVIGATION -->
-  <header class="details-header">
-    <div class="details-container nav-inner">
-      <a href="index.html" class="brand-logo">
-        <span>&lt;</span>EH<span>/&gt;</span>
+  <!-- NAVBAR -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+
+      <a href="index.html" class="brand">
+        Ekramul<span>.</span>
       </a>
 
-      <button class="details-menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <i class="fa-solid fa-bars"></i>
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="navMenu">
+
+        <span></span>
+        <span></span>
       </button>
 
-      <nav class="details-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html" class="active">Projects</a>
-        <a href="index.html#services">Services</a>
-        <a href="index.html#contact">Contact</a>
-      </nav>
+      <div class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active" aria-current="page">About</a>
+        <a href="index.html#services" class="nav-link">Services</a>
+        <a href="index.html#skills" class="nav-link">Skills</a>
+        <a href="index.html#projects" class="nav-link">Projects</a>
 
-      <a href="index.html#contact" class="details-button nav-cta">
-        Let's Talk <i class="fa-solid fa-arrow-up-right-from-square"></i>
-      </a>
-    </div>
+        <a href="index.html#contact" class="nav-cta">
+          Let's Talk
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+
+    </nav>
   </header>
 
   <main>
