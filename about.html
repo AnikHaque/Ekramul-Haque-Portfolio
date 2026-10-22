@@ -29,8 +29,23 @@
   <link rel="stylesheet" href="about-page.css">
 </head>
 
-<body class="about-page">
+<link rel="stylesheet" href="loader.css">
+<script src="loader.js" defer></script>
 
+<body class="about-page">
+<div id="page-loader" role="status" aria-live="polite" aria-label="Loading page">
+  <div class="loader-content">
+    <div class="loader-mark" aria-hidden="true">
+      <span class="loader-ring"></span>
+      <span class="loader-monogram">EH</span>
+    </div>
+    <p class="loader-brand">EKRAMUL HAQUE</p>
+    <p class="loader-status">Preparing your experience</p>
+    <div class="loader-progress" aria-hidden="true">
+      <span class="loader-progress-bar"></span>
+    </div>
+  </div>
+</div>
   <div class="site-noise" aria-hidden="true"></div>
   <div class="ambient ambient-a" aria-hidden="true"></div>
   <div class="ambient ambient-b" aria-hidden="true"></div>

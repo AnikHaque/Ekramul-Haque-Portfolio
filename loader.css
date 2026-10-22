@@ -1,0 +1,17 @@
+/* EKRAMUL HAQUE — PREMIUM PAGE LOADER */
+:root{--loader-bg:#080d18;--loader-cyan:#49e3f0;--loader-purple:#b49aff;--loader-text:#f3f6ff;--loader-muted:#9ba8bd}
+#page-loader{position:fixed;inset:0;z-index:99999;display:grid;place-items:center;padding:24px;background:radial-gradient(ellipse at 20% 20%,rgba(73,227,240,.09),transparent 38%),radial-gradient(ellipse at 80% 80%,rgba(180,154,255,.1),transparent 40%),var(--loader-bg);opacity:1;visibility:visible;transition:opacity .45s ease,visibility .45s ease}
+#page-loader.is-hidden{opacity:0;visibility:hidden;pointer-events:none}
+.loader-content{display:flex;flex-direction:column;align-items:center;text-align:center;gap:22px}
+.loader-mark{position:relative;width:76px;height:76px;display:grid;place-items:center}
+.loader-ring{position:absolute;inset:0;border:2px solid rgba(73,227,240,.13);border-top-color:var(--loader-cyan);border-right-color:var(--loader-purple);border-radius:50%;animation:loader-spin 1.05s linear infinite;box-shadow:0 0 28px rgba(73,227,240,.08)}
+.loader-ring:after{content:"";position:absolute;inset:8px;border:1px solid rgba(180,154,255,.15);border-bottom-color:var(--loader-purple);border-radius:50%;animation:loader-spin-reverse 1.6s linear infinite}
+.loader-monogram{position:relative;z-index:1;color:var(--loader-text);font:700 20px/1 "Space Grotesk",sans-serif;letter-spacing:-1px}
+.loader-brand{margin:0;color:var(--loader-text);font:700 15px/1.4 "Space Grotesk",sans-serif;letter-spacing:2.4px}
+.loader-status{margin:-12px 0 0;color:var(--loader-muted);font:500 11px/1.5 "DM Sans",sans-serif;letter-spacing:2px;text-transform:uppercase}
+.loader-progress{width:min(190px,55vw);height:3px;overflow:hidden;border-radius:99px;background:rgba(148,163,184,.16)}
+.loader-progress-bar{display:block;width:42%;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--loader-cyan),#8abaff,var(--loader-purple));box-shadow:0 0 14px rgba(73,227,240,.4);animation:loader-progress 1.25s ease-in-out infinite}
+body.page-transitioning{overflow:hidden}
+@keyframes loader-spin{to{transform:rotate(360deg)}}@keyframes loader-spin-reverse{to{transform:rotate(-360deg)}}@keyframes loader-progress{0%{transform:translateX(-115%)}100%{transform:translateX(260%)}}
+@media(max-width:480px){.loader-mark{width:66px;height:66px}.loader-brand{font-size:13px;letter-spacing:2px}}
+@media(prefers-reduced-motion:reduce){#page-loader{transition:none}.loader-ring,.loader-ring:after,.loader-progress-bar{animation-duration:2.5s}}
