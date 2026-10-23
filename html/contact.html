@@ -14,12 +14,12 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/contact.css">
 </head>
 
-<link rel="stylesheet" href="loader.css">
-<script src="loader.js" defer></script>
+<link rel="stylesheet" href="../css/loader.css">
+<script src="../js/loader.js" defer></script>
 
 <body>
 
@@ -41,7 +41,7 @@
 
     <!-- Navigation -->
     <header class="contact-header">
-      <a href="index.html" class="contact-logo">&lt;EH<span>/</span>&gt;</a>
+      <a href="index.html" class="contact-logo">Ekramul<span>.</span></a>
 
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
         <i class="fa-solid fa-bars"></i>
@@ -220,11 +220,50 @@
       </section>
     </main>
 
-    <footer class="contact-footer">
-      <a href="index.html" class="footer-logo">&lt;EH<span>/</span>&gt;</a>
-      <p>Designed & built with care by <strong>Ekramul Haque</strong></p>
-      <p class="copyright">© <span id="currentYear"></span> All rights reserved.</p>
-    </footer>
+    <<!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <a href="index.html" class="brand">
+        Ekramul<span>.</span>
+      </a>
+
+      <p>
+        Designed & built with care by
+        <strong>Ekramul Haque</strong>.
+      </p>
+
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/"
+           target="_blank" rel="noreferrer"
+           aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://github.com/"
+           target="_blank" rel="noreferrer"
+           aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="mailto:ekramul.haque.cse1@gmail.com"
+           aria-label="Email">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>
+        © <span id="year"></span> Ekramul Haque. All rights reserved.
+      </span>
+
+      <a href="#top">Back to top ↑</a>
+    </div>
+
+  </footer>
 
     <button id="backToTop" class="back-to-top" aria-label="Back to top">
       <i class="fa-solid fa-arrow-up"></i>
@@ -232,6 +271,6 @@
 
   </div>
 
-  <script src="contact.js"></script>
+  <script src="../js/contact.js"></script>
 </body>
 </html>

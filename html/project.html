@@ -12,12 +12,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="projects.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/projects.css">
 </head>
 
-<link rel="stylesheet" href="loader.css">
-<script src="loader.js" defer></script>
+<link rel="stylesheet" href="../css/loader.css">
+<script src="../js/loader.js" defer></script>
 
 <body class="projects-page">
 
@@ -447,18 +447,51 @@
     </section>
   </main>
 
-  <footer class="project-footer">
-    <div class="project-container footer-top">
-      <a href="index.html" class="brand-logo"><span>&lt;</span>EH<span>/&gt;</span></a>
-      <p>Designed with intention. Built with curiosity.</p>
-      <a href="#" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <a href="index.html" class="brand">
+        Ekramul<span>.</span>
+      </a>
+
+      <p>
+        Designed & built with care by
+        <strong>Ekramul Haque</strong>.
+      </p>
+
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/"
+           target="_blank" rel="noreferrer"
+           aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://github.com/"
+           target="_blank" rel="noreferrer"
+           aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="mailto:ekramul.haque.cse1@gmail.com"
+           aria-label="Email">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+      </div>
+
     </div>
-    <div class="project-container footer-bottom">
-      <span>© <span id="year"></span> Ekramul Haque. All rights reserved.</span>
-      <span>Made with <i class="fa-solid fa-heart"></i> and clean code.</span>
+
+    <div class="footer-bottom">
+      <span>
+        © <span id="year"></span> Ekramul Haque. All rights reserved.
+      </span>
+
+      <a href="#top">Back to top ↑</a>
     </div>
+
   </footer>
 
-  <script src="projects.js"></script>
+  <script src="../js/projects.js"></script>
 </body>
 </html>
