@@ -1,187 +1,247 @@
-# 🚀 Ekramul Haque — Developer Portfolio
+# EKRAMUL HAQUE
+### Full-Stack Developer · Web Designer · Problem Solver
 
-### Building Thoughtful, Responsive & User-Focused Digital Experiences
-
-Welcome to my personal developer portfolio! This project showcases my skills, services, projects, and experience in modern web development through a clean, interactive, and responsive user interface.
-
-The portfolio is designed with a modern dark aesthetic, smooth animations, carefully selected typography, and a consistent visual identity to deliver a professional browsing experience across desktop, tablet, and mobile devices.
-
----
-
-## 📌 Table of Contents
-
-- [About the Project](#-about-the-project)
-- [Key Features](#-key-features)
-- [Pages & Sections](#-pages--sections)
-- [Technology Stack](#-technology-stack)
-- [Design System](#-design-system)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Customization](#-customization)
-- [Responsive Design](#-responsive-design)
-- [Performance & Accessibility](#-performance--accessibility)
-- [Deployment](#-deployment)
-- [Future Improvements](#-future-improvements)
-- [Contact](#-contact)
+<p align="center">
+  <a href="mailto:ekramul.haque.cse1@gmail.com">
+    <img src="https://img.shields.io/badge/CONTACT-49E3F0?style=for-the-badge&logoColor=080D18&labelColor=080D18" alt="Contact" />
+  </a>
+  <img src="https://img.shields.io/badge/HTML5-080D18?style=for-the-badge&logo=html5&logoColor=49E3F0" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-080D18?style=for-the-badge&logo=css3&logoColor=B49AFF" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JAVASCRIPT-080D18?style=for-the-badge&logo=javascript&logoColor=F3F6FF" alt="JavaScript" />
+</p>
 
 ---
 
-## 🎯 About the Project
-
-**Ekramul Haque — Developer Portfolio** is a personal portfolio website created to present my technical skills, professional background, development services, and selected projects in one place.
-
-The website focuses on clarity, usability, responsive layouts, and modern visual design. Its modular page structure makes it easier to maintain individual sections and expand the portfolio as new projects and skills are added.
-
-### Project Goals
-
-- Establish a strong professional online presence.
-- Showcase development skills and completed projects.
-- Present services and technical expertise clearly.
-- Provide an easy way for potential clients and employers to get in touch.
-- Deliver a consistent experience across different screen sizes.
-- Maintain a clean and organized codebase.
+<p align="center">
+  <b>DESIGN WITH PURPOSE. DEVELOP WITH PRECISION.</b>
+  <br />
+  <br />
+  I build modern, responsive, and user-focused digital experiences.
+  <br />
+  Focused on clean code, thoughtful design, and practical solutions.
+</p>
 
 ---
 
-## ✨ Key Features
+## 01 / ABOUT
 
-- **Modern Dark UI** — A professional dark interface with cyan and purple accents.
-- **Responsive Layout** — Designed to adapt to desktop, tablet, and mobile screens.
-- **Multi-Page Architecture** — Separate pages for different areas of the portfolio.
-- **Interactive Navigation** — Easy navigation between portfolio pages.
-- **Mobile-Friendly Menu** — Navigation designed for smaller screens.
-- **Smooth Animations** — Subtle motion effects to enhance the browsing experience.
-- **Scroll Reveal Effects** — Elements can appear progressively as visitors explore the page.
-- **Animated Page Loader** — A branded loading screen for a more polished experience.
-- **Page Transitions** — Smooth transitions when navigating between supported internal pages.
-- **Project Showcase** — Dedicated sections for presenting selected projects.
-- **Services Presentation** — A structured overview of development services.
-- **Skills Overview** — A clear presentation of technical capabilities.
-- **Contact Section** — Contact information and an email-based contact workflow.
-- **Consistent Design System** — Reusable colors, typography, spacing, and visual patterns.
-- **Maintainable Code Structure** — HTML, CSS, and JavaScript organized into separate files.
+I'm a developer interested in building meaningful digital products that combine functionality, usability, and modern design.
 
----
+My approach to development is simple: understand the problem, plan the solution, and build an experience that feels intuitive to use and easy to maintain.
 
-## 📄 Pages & Sections
+I work across frontend interfaces and backend technologies, with an interest in creating complete web applications — from the first line of code to the final user experience.
 
-### 1. Home Page — `index.html`
+<table>
+  <tr>
+    <td width="50%" valign="top">
 
-The main landing page introduces the portfolio and provides quick access to the other sections.
+### WHAT I DO
 
-Includes:
+- Responsive website development
+- Interactive frontend interfaces
+- Full-stack web application development
+- UI implementation and styling
+- Database-driven applications
+- Website maintenance and optimization
 
-- Hero / banner section
-- Personal introduction
-- About overview
-- Skills and technical expertise
-- Services overview
-- Featured projects
-- Contact call-to-action
-- Footer and navigation links
+</td>
+    <td width="50%" valign="top">
 
-### 2. About Page — `about.html`
+### HOW I WORK
 
-Presents professional background, interests, technical capabilities, and development goals.
+- Structured and maintainable code
+- User-centered design decisions
+- Practical problem-solving
+- Consistent visual design
+- Attention to responsiveness
+- Continuous learning and improvement
 
-### 3. Services Page — `services.html`
-
-Highlights development services through a consistent visual layout, service descriptions, and relevant call-to-action links.
-
-### 4. Projects Page — `projects.html`
-
-Showcases selected projects and provides visitors with a structured overview of development work.
-
-Featured project examples include:
-
-- **Motors** — Automotive-related website project.
-- **University Website** — An educational website project.
-- **Orgafe** — A website project focused on presenting a brand or service.
-
-*Project descriptions and links can be updated to match each project's actual implementation.*
-
-### 5. Project Details Page — `project-details.html`
-
-Provides a dedicated layout for presenting an individual project in greater detail.
-
-Depending on the project content, the page can include:
-
-- Project overview
-- Challenge and solution
-- Key features
-- Technology stack
-- Screenshots or gallery
-- Project outcome
-- Contact call-to-action
-
-### 6. Shared Components & Effects
-
-Shared styling and JavaScript support consistent navigation, responsive behavior, animations, loading states, and other interactive elements across supported pages.
+</td>
+  </tr>
+</table>
 
 ---
 
-## 🛠️ Technology Stack
+## 02 / TECH STACK
 
-| Technology | Purpose |
-|---|---|
-| HTML5 | Semantic page structure and content |
-| CSS3 | Styling, layouts, responsive design, and animations |
-| JavaScript (Vanilla) | Interactive behavior and dynamic UI effects |
-| Font Awesome | Icons and visual indicators |
-| Google Fonts | Modern typography |
-| Git | Version control |
-| GitHub | Source code hosting and collaboration |
-| GitHub Pages / Netlify | Potential static website deployment options |
+<p>
+  <b>FRONTEND</b><br />
+  <img src="https://img.shields.io/badge/HTML5-101827?style=flat-square&logo=html5&logoColor=49E3F0" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-101827?style=flat-square&logo=css3&logoColor=B49AFF" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-101827?style=flat-square&logo=javascript&logoColor=F3F6FF" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-101827?style=flat-square&logo=react&logoColor=49E3F0" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-101827?style=flat-square&logo=tailwindcss&logoColor=49E3F0" alt="Tailwind CSS" />
+</p>
 
-### Core Development Principles
+<p>
+  <b>BACKEND & DATABASE</b><br />
+  <img src="https://img.shields.io/badge/Node.js-101827?style=flat-square&logo=nodedotjs&logoColor=49E3F0" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-101827?style=flat-square&logo=express&logoColor=F3F6FF" alt="Express.js" />
+  <img src="https://img.shields.io/badge/MongoDB-101827?style=flat-square&logo=mongodb&logoColor=49E3F0" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/MySQL-101827?style=flat-square&logo=mysql&logoColor=B49AFF" alt="MySQL" />
+</p>
 
-- Separation of concerns
+<p>
+  <b>TOOLS & WORKFLOW</b><br />
+  <img src="https://img.shields.io/badge/Git-101827?style=flat-square&logo=git&logoColor=49E3F0" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-101827?style=flat-square&logo=github&logoColor=F3F6FF" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS_Code-101827?style=flat-square&logo=visualstudiocode&logoColor=49E3F0" alt="Visual Studio Code" />
+</p>
+
+---
+
+## 03 / SELECTED PROJECTS
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+### 01 — Motors
+
+**Automotive Web Experience**
+
+A website project focused on presenting automotive content through a structured interface and clear visual hierarchy.
+
+**Focus areas**
+- Page layout and content structure
+- Responsive interface design
 - Reusable styling patterns
-- Responsive-first implementation
-- Consistent naming conventions
-- Readable and maintainable code
-- Progressive enhancement where practical
+
+</td>
+    <td width="50%" valign="top">
+
+### 02 — University Website
+
+**Education & Information**
+
+An educational website concept designed to organize institutional information and make important content accessible to visitors.
+
+**Focus areas**
+- Information architecture
+- Navigation and usability
+- Responsive page layouts
+
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### 03 — Orgafe
+
+**Brand & Web Presence**
+
+A website project focused on presenting a brand, communicating its value, and organizing information into an accessible digital experience.
+
+**Focus areas**
+- Visual consistency
+- Content presentation
+- User experience
+
+</td>
+    <td width="50%" valign="top">
+
+### 04 — Personal Portfolio
+
+**Professional Digital Identity**
+
+A multi-page portfolio built to present development skills, services, selected work, and contact information in a consistent visual system.
+
+**Focus areas**
+- Dark UI with cyan and purple accents
+- Interactive navigation and animations
+- Dedicated pages for services and projects
+
+</td>
+  </tr>
+</table>
+
+> Project descriptions are summaries. Add live links, source repositories, and screenshots for each project when available.
 
 ---
 
-## 🎨 Design System
+## 04 / PORTFOLIO FEATURES
 
-The portfolio uses a dark visual identity with bright accent colors to create contrast and highlight important content.
-
-### Color Palette
-
-| Color | Hex Code | Usage |
-|---|---|---|
-| Dark Navy | `#080D18` | Main background |
-| Cyan | `#49E3F0` | Primary accents and highlights |
-| Soft Purple | `#B49AFF` | Secondary accents |
-| Light Text | `#F3F6FF` | Headings and primary text |
-| Muted Blue-Gray | `#9BA8BD` | Secondary text and descriptions |
-
-### Typography
-
-- **DM Sans** — Body text and general interface content.
-- **Space Grotesk** — Headings and prominent display text.
-
-### Visual Direction
-
-- Dark, modern interface
-- Cyan and purple gradient accents
-- Clear content hierarchy
-- Consistent button styles
-- Balanced whitespace
-- Subtle borders and visual depth
-- Smooth hover and transition effects
+| Feature | Description |
+|:--|:--|
+| Multi-page structure | Separate pages for Home, About, Services, and Projects |
+| Responsive layout | Adapts to desktop, tablet, and mobile screens |
+| Visual consistency | Shared colors, typography, spacing, and components |
+| Interactive elements | JavaScript-powered navigation and UI behavior |
+| Page loader | Branded loading experience and supported page transitions |
+| Project showcase | Dedicated layouts for presenting selected work |
+| Contact section | Direct contact through the configured email workflow |
 
 ---
 
-## 📁 Project Structure
+## 05 / DESIGN DIRECTION
 
-The following is a suggested structure for organizing the portfolio. Adjust filenames to match the files in your actual repository.
+<table>
+  <tr>
+    <td width="25%" align="center">
+      <div style="background-color:#080D18; padding:18px; border:1px solid #49E3F0; border-radius:8px;">
+        <b>BACKGROUND</b><br />
+        <code>#080D18</code>
+      </div>
+    </td>
+    <td width="25%" align="center">
+      <div style="background-color:#49E3F0; padding:18px; border:1px solid #49E3F0; border-radius:8px; color:#080D18;">
+        <b>CYAN</b><br />
+        <code>#49E3F0</code>
+      </div>
+    </td>
+    <td width="25%" align="center">
+      <div style="background-color:#B49AFF; padding:18px; border:1px solid #B49AFF; border-radius:8px; color:#080D18;">
+        <b>PURPLE</b><br />
+        <code>#B49AFF</code>
+      </div>
+    </td>
+    <td width="25%" align="center">
+      <div style="background-color:#F3F6FF; padding:18px; border:1px solid #B49AFF; border-radius:8px; color:#080D18;">
+        <b>LIGHT TEXT</b><br />
+        <code>#F3F6FF</code>
+      </div>
+    </td>
+  </tr>
+</table>
+
+The visual direction is built around a restrained dark palette, bright accent colors, readable typography, and clear separation between content sections.
+
+The goal is a professional interface that feels modern without distracting from the work itself.
+
+---
+
+## 06 / RUN LOCALLY
+
+The portfolio uses standard web technologies and can be opened without a build process.
+
+**Requirements**
+- A modern web browser
+- Visual Studio Code or another code editor
+- Git (optional)
+- Live Server (recommended)
+
+**Clone the repository**
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+cd YOUR_REPOSITORY
+```
+
+**Launch the website**
+
+1. Open the project folder in Visual Studio Code.
+2. Install the Live Server extension if needed.
+3. Right-click `index.html`.
+4. Select **Open with Live Server**.
+
+Alternatively, open `index.html` directly in your browser.
+
+---
+
+## 07 / PROJECT STRUCTURE
 
 ```text
-ekramul-haque-portfolio/
-│
+portfolio/
 ├── index.html
 ├── about.html
 ├── services.html
@@ -190,16 +250,8 @@ ekramul-haque-portfolio/
 │
 ├── style.css
 ├── script.js
-│
-├── about.css
-├── about.js
-│
 ├── services.css
 ├── services.js
-│
-├── projects.css
-├── projects.js
-│
 ├── project-details.css
 ├── project-details.js
 │
@@ -208,231 +260,57 @@ ekramul-haque-portfolio/
 │
 ├── assets/
 │   ├── images/
-│   ├── icons/
 │   └── Ekramul-Haque-CV.pdf
 │
 └── README.md
 ```
 
-**Note:** Keep only the files that actually exist in your project. If some styles or scripts are shared across multiple pages, you can continue using a shared file rather than creating unnecessary duplicates.
+*Adjust the structure above to reflect the actual files in your repository.*
 
 ---
 
-## 🚀 Getting Started
+## 08 / DEVELOPMENT NOTES
 
-Follow these steps to run the portfolio locally.
+- Keep HTML, CSS, and JavaScript organized and readable.
+- Test navigation and internal links after changing page names.
+- Verify that image and CV paths are correct.
+- Check layouts at multiple viewport sizes.
+- Optimize large image assets before publishing.
+- Use descriptive titles and meta descriptions for each page.
+- Keep third-party dependencies and external resources up to date.
 
-### Prerequisites
-
-You need:
-
-- A modern web browser
-- A code editor such as Visual Studio Code
-- Git (optional, for cloning and version control)
-- VS Code Live Server (recommended for local development)
-
-### 1. Clone the Repository
-
-Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your actual GitHub username and repository name.
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-```
-
-### 2. Navigate to the Project Directory
-
-```bash
-cd YOUR_REPOSITORY
-```
-
-### 3. Open the Project
-
-Open the folder in Visual Studio Code:
-
-```bash
-code .
-```
-
-Alternatively, open the folder manually from your code editor.
-
-### 4. Run the Website
-
-**Option A — Open directly**
-
-Open `index.html` in your browser.
-
-**Option B — Use Live Server (recommended)**
-
-1. Install the Live Server extension in Visual Studio Code.
-2. Open `index.html`.
-3. Right-click the editor.
-4. Select **Open with Live Server**.
-
-Your website should now open in the browser.
-
-> This is a static HTML, CSS, and JavaScript project. A Node.js server or package installation is not required unless you add backend functionality or build tools later.
+**Contact form note:** The current email-based workflow opens the visitor's configured email application. Sending messages directly from the website requires a backend or a suitable form service.
 
 ---
 
-## ⚙️ Customization
-
-### Update Personal Information
-
-Edit the relevant HTML files to update:
-
-- Name and professional introduction
-- About section
-- Skills and technologies
-- Services
-- Project descriptions
-- Education and experience
-- Contact information
-- Social media links
-
-### Update Theme Colors
-
-Modify the relevant CSS variables or color declarations in your stylesheet.
-
-For example:
-
-```css
-:root {
-  --bg-primary: #080D18;
-  --accent-cyan: #49E3F0;
-  --accent-purple: #B49AFF;
-  --text-primary: #F3F6FF;
-  --text-secondary: #9BA8BD;
-}
-```
-
-If your current stylesheet uses different variable names, either adapt the example or update your existing variables consistently.
-
-### Update Images and CV
-
-1. Place your images inside the appropriate assets directory.
-2. Update the image paths in the HTML files.
-3. Replace the CV file with the latest version.
-4. Verify that all image and document links work correctly.
-
-### Update Contact Details
-
-Update the displayed email address and other contact links wherever they appear.
-
-Current portfolio contact email:
-
-**`ekramul.haque.cse1@gmail.com`**
-
----
-
-## 📱 Responsive Design
-
-The portfolio is intended to provide a consistent experience across common device sizes.
-
-Responsive considerations include:
-
-- Flexible content widths
-- CSS Grid and Flexbox layouts
-- Responsive typography
-- Mobile navigation
-- Adaptive project cards
-- Proper image scaling
-- Spacing adjustments for smaller screens
-- Touch-friendly interactive elements
-
-Always test the final website at desktop, tablet, and mobile widths after making design changes.
-
----
-
-## ♿ Performance & Accessibility
-
-The following practices help improve the quality of the website:
-
-- Use semantic HTML elements where appropriate.
-- Maintain readable text and sufficient color contrast.
-- Provide descriptive alternative text for meaningful images.
-- Use clear labels for interactive controls.
-- Ensure navigation works with a keyboard where practical.
-- Avoid unnecessary animation and respect reduced-motion preferences.
-- Compress large images to improve loading performance.
-- Check internal links and asset paths before deployment.
-- Test the website in multiple modern browsers.
-
-These are recommended checks; the final level of accessibility and performance depends on the implemented code and testing results.
-
----
-
-## 🌐 Deployment
-
-Because the portfolio uses static web technologies, it can be deployed using services that host HTML, CSS, JavaScript, and assets.
-
-### Option 1 — GitHub Pages
-
-1. Push the project to a GitHub repository.
-2. Open the repository's **Settings**.
-3. Navigate to **Pages**.
-4. Select the deployment source or branch supported by your repository.
-5. Save the configuration.
-6. Wait for GitHub Pages to publish the website.
-
-### Option 2 — Netlify
-
-1. Push the project to GitHub.
-2. Sign in to Netlify.
-3. Import the GitHub repository.
-4. Configure the site as a static website.
-5. Deploy the project.
-
-For a plain HTML/CSS/JavaScript project, a build command is generally unnecessary. Make sure the deployment publishes the directory containing `index.html` and the required assets.
-
----
-
-## 🔮 Future Improvements
-
-Potential improvements for future versions include:
+## 09 / ROADMAP
 
 - [ ] Add a backend-powered contact form.
-- [ ] Add email delivery with server-side validation.
-- [ ] Build a project management interface or CMS.
-- [ ] Add project category filters.
-- [ ] Add dedicated case studies for more projects.
-- [ ] Improve SEO metadata and social sharing previews.
-- [ ] Add analytics with appropriate privacy considerations.
-- [ ] Optimize images and loading performance.
-- [ ] Expand accessibility testing.
-- [ ] Add automated link and responsive-layout checks.
-- [ ] Introduce a light/dark theme switcher.
-- [ ] Add multilingual support.
+- [ ] Publish live demos for selected projects.
+- [ ] Add detailed project case studies.
+- [ ] Improve search engine optimization.
+- [ ] Add further accessibility and performance checks.
+- [ ] Expand the portfolio with new projects and technologies.
 
 ---
 
-## 📬 Contact
+## 10 / GET IN TOUCH
 
-I'm interested in connecting with developers, collaborating on projects, and exploring opportunities to build useful digital experiences.
-
-**Ekramul Haque**  
-Full-Stack Developer
-
-- **Email:** [ekramul.haque.cse1@gmail.com](mailto:ekramul.haque.cse1@gmail.com)
-- **Location:** Dhaka, Bangladesh
-
-You can also add your verified professional profiles here:
-
-- **GitHub:** `YOUR_GITHUB_PROFILE_URL`
-- **LinkedIn:** `YOUR_LINKEDIN_PROFILE_URL`
-- **Portfolio:** `YOUR_LIVE_PORTFOLIO_URL`
-
----
-
-## 📄 License
-
-Unless a license is added to this repository, the project's reuse and redistribution terms have not been explicitly specified.
-
-If you want others to reuse the code under defined conditions, consider adding an appropriate open-source license, such as the MIT License, and a corresponding `LICENSE` file.
-
----
+Interested in working together, discussing a project, or connecting professionally?
 
 <p align="center">
-  Designed with care by <strong>Ekramul Haque</strong>
-  <br />
-  <em>Turning ideas into meaningful digital experiences.</em>
+  <a href="mailto:ekramul.haque.cse1@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL%20ME-49E3F0?style=for-the-badge&labelColor=080D18" alt="Email Ekramul Haque" />
+  </a>
+</p>
+
+<p align="center">
+  <b>Ekramul Haque</b><br />
+  Full-Stack Developer<br />
+  Dhaka, Bangladesh<br />
+  <a href="mailto:ekramul.haque.cse1@gmail.com">ekramul.haque.cse1@gmail.com</a>
+</p>
+
+<p align="center">
+  <sub>Thoughtful design. Clean code. Meaningful experiences.</sub>
 </p>
